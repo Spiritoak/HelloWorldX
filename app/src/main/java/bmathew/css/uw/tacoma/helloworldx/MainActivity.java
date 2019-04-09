@@ -14,4 +14,11 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i(TAG, "Testing commits with git");
     }
+
+    @Override
+    protected void onResume () {
+        super.onResume();
+
+        Log.i(TAG, "Override onResume");
+    }
 }
